@@ -153,7 +153,7 @@ while ($row = mysqli_fetch_array($results)) {
 	<div class="form-group">
 		<label>Домен или Email:</label>
 		<input class="form-control" type="text" name="domain" id="from" value="" required autofocus>
-		<small>Если вводите доменное имя, то его надо указывать со знаком "@"<br>Пример: @digimap.ru</small>
+		<small>Если вводите доменное имя, то его надо указывать со знаком "@"<br>Пример: @example.ru</small>
 	</div>
 	<div class="form-group">
 		<label>Лист:</label><br>
